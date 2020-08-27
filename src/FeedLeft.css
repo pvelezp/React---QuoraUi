@@ -1,0 +1,53 @@
+.feedLeft {
+    flex: 0.25;
+
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 30px;
+}
+
+.feedLeft__Container {
+    flex: 0.7;
+    display: flex;
+
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.feedLeft__containerUp {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid lightgray;
+
+}
+
+.feedLeft__containerUp > h4 {
+    margin: 7px;
+    font-weight: 400;
+    cursor: pointer;
+    color:#C4524F
+    
+}
+.feedLeft__containerUp > h4:hover {
+   background-color:lightgray
+
+}
+
+
+.feedLeft__containerDown {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: 100;
+    font-size: 14px
+}
+
+.feedLeft__containerDown > p {
+    cursor: pointer;
+    
+}
+
+.feedLeft__containerDown > p:hover {
+    text-decoration: underline;
+    
+}

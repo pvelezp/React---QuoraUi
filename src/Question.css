@@ -1,0 +1,30 @@
+.question {
+    margin-top: 35px;
+    background-color: white;
+    padding: 15px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.question__header {
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 100px;
+    margin-bottom: 5px;
+}
+
+.question__header >h4 {
+    margin-left: 5px;
+    font-weight: 400;
+    color: gray
+}
+
+
+.question > h3 {
+    color: #939598;
+}
+.question__avatar {
+    height: 3px;
+}
